@@ -3,12 +3,16 @@
 
 @import "{{ site.theme }}";
 
-code a {
-  color: #d5000d;
+a:hover, a:active, a:focus {
+    font-weight: inherit;
 }
 
-code a:hover {
-  color: #c5000c;
+a code {
+    color: #267CB9;
+}
+
+a:hover code {
+    color: #069;
 }
 
 kbd {
